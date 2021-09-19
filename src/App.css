@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,82 @@
   to {
     transform: rotate(360deg);
   }
+}
+ */
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.nav {
+  height: 50px;
+  background-color: #000;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 80px;
+  align-items: center;
+  color: #fff;
+}
+
+.sign-in {
+  padding: 10px 20px;
+  background-color: rgb(13, 85, 13);
+  color: white;
+  border: 0;
+}
+
+.header-main {
+  height: 260px;
+  background-color: #eeeeee;
+  padding: 40px 80px;
+}
+.header-main h1 {
+  font-size: 60px;
+}
+
+.details {
+  padding: 10px 30px;
+  background-color: rgb(17, 105, 17);
+  color: white;
+  border-radius: 5px;
+}
+
+.main {
+  width: 100%;
+  /* height: 700px; */
+  display: flex;
+  padding: 20px 40px;
+  border: 1px solid rgb(114, 18, 18);
+}
+
+.left {
+  width: 70%;
+  border: 1px solid rgb(114, 32, 32);
+}
+.right {
+  width: 30%;
+  border: 1px solid rgb(117, 34, 34);
+}
+
+.js-config {
+  padding: 20px 30px;
+}
+
+#tutorials-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  padding: 10px 20px;
+}
+
+#personal-training,
+#recent-videos {
+  margin: 10px 20px;
+  border: 1px solid rgb(28, 110, 28);
+}
+
+.recent-videos ul {
+  margin: 5px 30px;
 }
